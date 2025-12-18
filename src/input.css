@@ -2,5 +2,8 @@
 
 @theme {
   --color-primary: #8630E8;
-  --spacing-xontainer: 1244px; 
+  --color-secondary: #17212E;
+  --spacing-xontainer: 1244px;
+  --font-inter: "Inter Tight", sans-serif;
+  --font-noto: "Noto Sans", sans-serif;
 }
