@@ -15,58 +15,496 @@
     <!-- Google Fonts End -->
 
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="src/output.css">
 </head>
 
 <body>
-    <div class="headerPart py-10 fixed top-0 left-0 w-full">
-        <div class="max-w-xontainer mx-auto">
-            <div class="flex items-center justify-between">
-                <picture>
-                    <img src="assets/Logo.svg" alt="Logo" class="duration-500 hover:scale-105">
-                </picture>
-                <div class="menu ">
-                    <ul class="flex gap-10">
-                        <li class="duration-500 hover:scale-110"><a href="#"
-                                class="text-secondary font-inter font-semibold relative inline-block before:duration-500 before:absolute before:content[''] before:h-0 before:w-0 before:left-0 before:bottom-0 before:bg-primary hover:before:h-0.75 hover:before:w-full before:rounded-xs">Home</a>
-                        </li>
-                        <li class="duration-500 hover:scale-110"><a href="#"
-                                class="text-secondary font-inter font-semibold relative inline-block before:duration-500 before:absolute before:content[''] before:h-0 before:w-0 before:left-0 before:bottom-0 before:bg-primary hover:before:h-0.75 hover:before:w-full before:rounded-xs">About
-                                Us</a></li>
-                        <li class="duration-500 hover:scale-110"><a href="#"
-                                class="text-secondary font-inter font-semibold relative inline-block before:duration-500 before:absolute before:content[''] before:h-0 before:w-0 before:left-0 before:bottom-0 before:bg-primary hover:before:h-0.75 hover:before:w-full before:rounded-xs">Services</a>
-                        </li>
-                        <li class="duration-500 hover:scale-110"><a href="#"
-                                class="text-secondary font-inter font-semibold relative inline-block before:duration-500 before:absolute before:content[''] before:h-0 before:w-0 before:left-0 before:bottom-0 before:bg-primary hover:before:h-0.75 hover:before:w-full before:rounded-xs">Contact
-                                Us</a></li>
-                    </ul>
-                </div>
-                <div class="menuButton">
-                    <a href="#"
-                        class="text-white font-noto font-semibold px-8 py-4 bg-[#14182F] rounded-4xl duration-500 hover:bg-primary">Sign
-                        In</a>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="bannerPart bg-[url(../assets/Banner.svg)] pt-57.5 pb-42.5 bg-no-repeat bg-cover bg-center">
-        <div class="max-w-xontainer mx-auto">
-            <h1 class="text-secondary font-inter font-semibold text-[90px] w-[670px]">The Easiest Way to Manage Data
-            </h1>
-            <p class="text-[#525252] font-noto text-[16px] w-[605px]">Li Europan lingues es membres del sam familie. Lor
-                separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li
-                lingues differe solmen.</p>
-            <div class="bannerButton">
-                <a href="#"
-                    class="inline-block py-5 px-8 text-white font-noto font-bold text-[21px] bg-linear-to-r from-[#E330A3] to-[#8B31E3] rounded-[40px] mr-10">Get
-                    Started <i class="fa-solid fa-arrow-up"></i></a>
-                <a href="#"
-                    class="inline-block py-5 px-8 text-white font-noto font-bold text-[21px] bg-linear-to-r from-[#E330A3] to-[#8B31E3] rounded-[40px]"><i
-                        class="fa-regular fa-circle-play"></i> Watch How it Works</a>
+    <!-- Header Part Start -->
+
+    <section id="headerPart" data-aos="fade-down" data-aos-duration="500">
+        <div id="header" class="py-10 fixed top-0 left-0 w-full z-50 transition-all duration-1000 ease-in-out">
+            <div class="max-w-mContainer mx-auto">
+                <div class="flex items-center justify-between">
+                    <picture>
+                        <img src="assets/Logo.svg" alt="Logo" class="duration-500 hover:scale-110">
+                    </picture>
+                    <div class="menu ">
+                        <ul class="flex gap-10">
+                            <li class="duration-500 hover:scale-120"><a href="#"
+                                    class="text-secondary font-inter font-semibold relative inline-block hover:text-primary before:duration-500 before:absolute before:content[''] before:h-0 before:w-0 before:left-0 before:bottom-0 before:bg-primary hover:before:h-0.75 hover:before:w-full before:rounded-xs">Home</a>
+                            </li>
+                            <li class="duration-500 hover:scale-120"><a href="#"
+                                    class="text-secondary font-inter font-semibold relative inline-block hover:text-primary before:duration-500 before:absolute before:content[''] before:h-0 before:w-0 before:left-0 before:bottom-0 before:bg-primary hover:before:h-0.75 hover:before:w-full before:rounded-xs">About
+                                    Us</a></li>
+                            <li class="duration-500 hover:scale-120"><a href="#"
+                                    class="text-secondary font-inter font-semibold relative inline-block hover:text-primary before:duration-500 before:absolute before:content[''] before:h-0 before:w-0 before:left-0 before:bottom-0 before:bg-primary hover:before:h-0.75 hover:before:w-full before:rounded-xs">Services</a>
+                            </li>
+                            <li class="duration-500 hover:scale-120"><a href="#"
+                                    class="text-secondary font-inter font-semibold relative inline-block hover:text-primary before:duration-500 before:absolute before:content[''] before:h-0 before:w-0 before:left-0 before:bottom-0 before:bg-primary hover:before:h-0.75 hover:before:w-full before:rounded-xs">Contact
+                                    Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="menuButton duration-500 hover:scale-110">
+                        <a href="#"
+                            class="text-white font-noto font-semibold px-8 py-4 bg-[#14182F] rounded-4xl duration-500 hover:bg-primary">Sign
+                            In</a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!-- Header Part End -->
+
+    <!-- Banner Part Start -->
+
+    <section id="bannerPart">
+        <div class="banner bg-[url(../assets/Banner.svg)] pt-34 bg-no-repeat bg-cover bg-center">
+            <div class="max-w-mContainer mx-auto">
+                <div class="flex justify-between">
+                    <div class="bannerLeft pt-24">
+                        <h1 class="text-secondary font-inter font-semibold text-[90px] w-167.5 text-center" data-aos="fade-right" data-aos-duration="250">The
+                            Easiest
+                            Way to
+                            Manage Data
+                        </h1>
+                        <p class="text-[#525252] font-noto text-[16px] w-151.25 pt-6 pb-16" data-aos="fade-right" data-aos-duration="500">Li Europan lingues es
+                            membres
+                            del
+                            sam
+                            familie.
+                            Lor
+                            separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam
+                            vocabular.
+                            Li
+                            lingues differe solmen.</p>
+                        <div class="bannerButton" data-aos="fade-right" data-aos-duration="750">
+                            <a href="#"
+                                class="inline-block py-5 px-8 text-white font-noto font-bold text-[21px] bg-linear-to-r from-[#E330A3] to-[#8B31E3] rounded-[40px] mr-10 transition-all duration-500 hover:scale-110 hover:bg-none hover:text-black">Get
+                                Started <i class="fa-solid fa-arrow-up rotate-45"></i></a>
+                            <a href="#"
+                                class="inline-block py-5 px-8 text-white font-noto font-bold text-[21px] bg-linear-to-r from-[#E330A3] to-[#8B31E3] rounded-[40px] transition-all duration-500 hover:scale-110 hover:bg-none hover:text-black"><i
+                                    class="fa-solid fa-circle-play"></i> Watch How it Works</a>
+                        </div>
+                    </div>
+                    <div class="bannerRight pr-8" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="w-123.25 h-177">
+                            <picture>
+                                <img src="assets/ThumbnailSm.png" alt="img"
+                                    class="w-full h-full duration-500 hover:scale-102 hover:saturate-125">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner Part End -->
+
+    <!-- About Us Part Start -->
+
+    <section id="aboutUsPart" class="bg-[#14182f]">
+        <div class="max-w-mContainer mx-auto">
+            <div class="aboutUs">
+                <div class="aboutUsHolder">
+
+                    <!-- Heading Part Start -->
+
+                    <div class="aboutUsHeading flex justify-between py-20">
+                        <div class="headingLeft">
+                            <h2 class="text-[67px] font-inter font-semibold text-white w-163" data-aos="fade-right" data-aos-duration="250">Understanding Using Your
+                                Personal Data</h2>
+                        </div>
+                        <div class="headingRight pl-37.5 pt-17.5">
+                            <p class="text-[16px] text-white font-noto w-110" data-aos="fade-left" data-aos-duration="500">Li Europan lingues es membres del sam
+                                familie.
+                                Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li
+                                sam
+                                vocabular. Li lingues differe solmen.</p>
+                        </div>
+                    </div>
+
+                    <!-- Heading Part End -->
+
+
+                    <!-- Gradiant Blur Part Start -->
+
+                    <div class="gradiantBlur flex justify-around relative z-10" data-aos="fade-zoom-in" data-aos-duration="2000">
+                        <div
+                            class="circleOne bg-primary h-75 w-75 rounded-full blur-[175px] absolute top-18 left-[20%]">
+                        </div>
+                        <div
+                            class="circleTwo bg-[#48F5F5] h-75 w-75 rounded-full blur-[175px] absolute top-18 right-[20%]">
+                        </div>
+                    </div>
+
+                    <!-- Gradiant Blur Part End -->
+                </div>>
+
+                <!-- Counter Part Start -->
+
+                <div class="counterPart flex justify-between pb-20 relative z-20">
+                    <div class="counterCard p-2.5 w-70 text-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                        <h3 class="text-[#48F5F5] text-[50px] font-inter font-semibold"><span class="counter">30</span>+
+                        </h3>
+                        <p class="text-white text-[21px] font-inter font-semibold">Years of Experience</p>
+                    </div>
+                    <div class="counterCard p-2.5 w-70 text-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                        <h3 class="text-[#48F5F5] text-[50px] font-inter font-semibold"><span
+                                class="counter">500</span>+</h3>
+                        <p class="text-white text-[21px] font-inter font-semibold">Years of Experience</p>
+                    </div>
+                    <div class="counterCard p-2.5 w-70 text-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
+                        <h3 class="text-[#48F5F5] text-[50px] font-inter font-semibold"><span
+                                class="counter">350</span>+</h3>
+                        <p class="text-white text-[21px] font-inter font-semibold">Years of Experience</p>
+                    </div>
+                    <div class="counterCard p-2.5 w-70 text-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
+                        <h3 class="text-[#48F5F5] text-[50px] font-inter font-semibold"><span
+                                class="counter">240</span>K</h3>
+                        <p class="text-white text-[21px] font-inter font-semibold">Years of Experience</p>
+                    </div>
+                </div>
+
+                <!-- Counter Part End -->
+
+                <!-- About Us Image Part Start -->
+
+                <div class="aboutUsImage w-full h-134 relative z-20" data-aos="fade-zoom-in" data-aos-duration="1000">
+                    <picture>
+                        <img src="assets/Data-2Sm.png" alt="img" class="w-full h-full duration-500 hover:saturate-150">
+                    </picture>
+                </div>
+
+                <!-- About Us Image Part End -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Part End -->
+
+    <!-- Services Part Start -->
+
+    <section id="servicesPart" class="p-20 bg-tertiary">
+        <div class="max-w-mContainer mx-auto">
+
+            <!-- Gradiant Blur Part Start -->
+
+        <div class="gradiantBlur flex justify-around relative z-0" data-aos="fade-zoom-in" data-aos-duration="2000">
+            <div class="circleOne bg-[#8630e8c0] h-50 w-75 rounded-full blur-[150px] absolute top-100 -right-32">
+            </div>
+            <div class="circleTwo bg-[#48F5F5] h-50 w-75 rounded-full blur-[150px] absolute top-10 -left-32">
+            </div>
+        </div>
+
+        <!-- Gradiant Blur Part End -->
+
+            <!-- Services Heading Start -->
+
+            <div class="servicesHeading text-center">
+                <h2 class="mx-auto text-[67px] text-secondary font-inter font-semibold w-197.5" data-aos="fade-down" data-aos-duration="250">Built With a Deep Focus
+                    On Data Analysis</h2>
+                <p class="pt-6 mx-auto text-[16px] text-[#525252] font-noto w-151.25" data-aos="zoom-in" data-aos-duration="500">Li Europan lingues es membres del
+                    sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li
+                    sam vocabular. Li lingues differe solmen.</p>
+            </div>
+
+            <!-- Services Heading End -->
+
+            <!-- Services Card Start -->
+
+            <div class="serviceCard flex justify-between pt-20" data-aos="flip-down" data-aos-duration="1000">
+
+                <div
+                    class="serviceCardOne bg-[#ffffff40] rounded-3xl border border-[#C7D7E5] p-10 w-97.5 duration-1000 hover:scale-110 hover:bg-white hover:border-tertiary hover:-translate-y-10 hover:translate-x-[10%] hover:rotate-y-360 hover:shadow-[40px_40px_108px_24px_rgba(74,56,94,0.19)]">
+                    <picture>
+                        <img src="assets/Service1.svg" alt="Icon" class="mx-auto">
+                    </picture>
+                    <h5 class="text-[28px] text-secondary font-inter font-semibold text-center pt-10 pb-4">Better
+                        Experience</h5>
+                    <p class="text-[#525252] text-[16px] font-noto text-center">Li Europan lingues es membres del sam
+                        familie. Lor separat existentie es un myth.</p>
+                </div>
+
+                <div
+                    class="serviceCardTwo bg-[#ffffff40] rounded-3xl border border-[#C7D7E5] p-10 mx-2.5 w-97.5 duration-1000 hover:scale-110 hover:bg-white hover:border-tertiary hover:-translate-y-10 hover:rotate-360 hover:shadow-[40px_40px_108px_24px_rgba(74,56,94,0.19)]">
+                    <picture>
+                        <img src="assets/Service2.svg" alt="Icon" class="mx-auto">
+                    </picture>
+                    <h5 class="text-[28px] text-secondary font-inter font-semibold text-center pt-10 pb-4">Data-Driven
+                        Decisions</h5>
+                    <p class="text-[#525252] text-[16px] font-noto text-center">Li Europan lingues es membres del sam
+                        familie. Lor separat existentie es un myth.</p>
+                </div>
+
+                <div
+                    class="serviceCardThree bg-[#ffffff40] rounded-3xl border border-[#C7D7E5] p-10 w-97.5 duration-1000 hover:scale-110 hover:bg-white hover:border-tertiary hover:-translate-y-10 hover:-translate-x-[10%] hover:rotate-x-360 hover:shadow-[40px_40px_108px_24px_rgba(74,56,94,0.19)]">
+                    <picture>
+                        <img src="assets/Service3.svg" alt="Icon" class="mx-auto">
+                    </picture>
+                    <h5 class="text-[28px] text-secondary font-inter font-semibold text-center pt-10 pb-4">Customized
+                        Solutions</h5>
+                    <p class="text-[#525252] text-[16px] font-noto text-center">Li Europan lingues es membres del sam
+                        familie. Lor separat existentie es un myth.</p>
+                </div>
+
+            </div>
+
+            <!-- Services Card End -->
+        </div>
+    </section>
+
+    <!-- Services Part End -->
+
+    <!-- Why Choose Us Part Start -->
+
+    <section id="whyPart" class="pt-20 pb-30 bg-tertiary">
+        <div class="max-w-mContainer mx-auto">
+            <div class="why flex justify-between">
+                <div class="whyLeft">
+                    <h3 class="text-secondary text-[67px] font-inter font-semibold w-155" data-aos="zoom-in-right" data-aos-duration="250">Driving Growth Through
+                        SaaS Data Analytics</h3>
+                    <p class="text-[16px] text-[#525252] font-noto w-155 pt-6 pb-8" data-aos="zoom-in-right" data-aos-duration="500">Li Europan lingues es
+                        membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport
+                        etc, litot Europa usa li sam vocabular. Li lingues differe solmen.</p>
+                    <h3 class="text-[16px] text-secondary font-inter font-semibold" data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="100"><i
+                            class="fa-solid fa-circle-check bg-linear-to-r from-[#E330A3] to-[#8B31E3] text-transparent bg-clip-text"></i>
+                        Validation Data Servers</h3>
+                    <h3 class="text-[16px] text-secondary font-inter font-semibold pt-6 pb-6" data-aos="zoom-in-up" data-aos-duration="500"><i
+                            class="fa-solid fa-circle-check bg-linear-to-r from-[#E330A3] to-[#8B31E3] text-transparent bg-clip-text"></i>
+                        Networking & Security</h3>
+                    <h3 class="text-[16px] text-secondary font-inter font-semibold" data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="200"><i
+                            class="fa-solid fa-circle-check bg-linear-to-r from-[#E330A3] to-[#8B31E3] text-transparent bg-clip-text"></i>
+                        24/7 Customer Services</h3>
+                </div>
+                <div class="whyRight" data-aos="zoom-in-left" data-aos-duration="500" data-aos-delay="250">
+                    <div class="whyCardHolder relative">
+                        <div
+                            class="whyCardHolder absolute -left-8 top-105.75 z-10 py-6 px-4 bg-white rounded-3xl w-99 duration-500 border border-white hover:border-[#c5c9d2] hover:scale-105">
+                            <div
+                                class="whyCardImagezOne absolute top-[18.75%] left-2 z-1 w-14 h-14 bg-[#c4c4c4] rounded-full border-2 border-white">
+                            </div>
+                            <div
+                                class="whyCardImagezTwo absolute top-[18.75%] left-12 z-2 w-14 h-14 bg-[#c4c4c4] rounded-full border-2 border-white">
+                            </div>
+                            <div
+                                class="whyCardImagezThree absolute top-[18.75%] left-22 z-3 w-14 h-14 bg-[#c4c4c4] rounded-full border-2 border-white">
+                            </div>
+                            <div
+                                class="whyCardImagezFour absolute top-[18.75%] left-32 z-4 w-14 h-14 bg-linear-to-r from-[#e330a3] to-primary rounded-full border-2 border-white flex items-center justify-center">
+                                <h6 class="text-base text-white font-inter font-semibold"><span class="counter">10</span>K+</h6>
+                            </div>
+                            <div class="whyCardText text-secondary text-base font-inter font-semibold w-43 ml-46">
+                                Clients who
+                                joined this month</div>
+                        </div>
+                    </div>
+                    <div class="whyImage w-132 h-122">
+
+                        <!-- Gradiant Blur Part Start -->
+
+                        <div class="gradiantBlur flex justify-around relative z-0" data-aos="fade-zoom-in" data-aos-duration="2000">
+                            <div
+                                class="circleOne bg-primary h-75 w-75 rounded-full blur-[150px] absolute top-85 -right-[20%]">
+                            </div>
+                            <div
+                                class="circleTwo bg-[#48F5F5] h-75 w-75 rounded-full blur-[150px] absolute top-40 -left-[10%]">
+                            </div>
+                        </div>
+
+                        <!-- Gradiant Blur Part End -->
+
+                        <picture>
+                            <img src="assets/Data-3Sm.png" alt="img"
+                                class="w-full h-full duration-500 hover:saturate-150 relative z-9">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Part End -->
+
+    <!-- Testimonials Part Start -->
+
+    <section id="testimonialsPart" class="bg-tertiary pt-20 pb-20">
+        <div class="max-w-mContainer mx-auto">
+
+            <!-- Gradiant Blur Part Start -->
+
+        <div class="gradiantBlur flex justify-around relative z-0" data-aos="fade-zoom-in" data-aos-duration="2000">
+            <div class="circleOne bg-[#48f5f580] h-75 w-75 rounded-full blur-[150px] absolute top-10 -left-32">
+            </div>
+            <div class="circleTwo bg-[#8630e880] h-75 w-75 rounded-full blur-[150px] absolute top-75 -right-32">
+            </div>
+        </div>
+
+        <!-- Gradiant Blur Part End -->
+
+            <div class="testimonials">
+                <div class="testiTop pb-20">
+                    <h3 class="text-[67px] text-secondary font-inter font-semibold text-center pb-6" data-aos="flip-up" data-aos-duration="500">What Our
+                        Client Says</h3>
+                    <p class="text-[#525252] text-[16px] font-noto text-center w-151.25 mx-auto" data-aos="flip-down" data-aos-duration="500" data-aos-delay="100">Li Europan
+                        lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie.</p>
+                </div>
+                <div class="testiBottom flex justify-between" data-aos="zoom-out" data-aos-duration="500">
+                    <div
+                        class="testiCardOne bg-[#ffffff40] p-6 rounded-3xl border border-[#C7D7E5] duration-1000 hover:scale-110 hover:bg-white hover:border-white hover:-rotate-x-360 hover:translate-x-[10%] hover:-translate-y-10 hover:shadow-[40px_40px_108px_24px_rgba(74,56,94,0.19)]">
+                        <div class="cardTop flex pb-6">
+                            <picture>
+                                <img src="#" alt="img" class="w-16 h-16 bg-[#c4c4c4] rounded-full">
+                            </picture>
+                            <div class="nameHolder ml-4">
+                                <h3 class="text-secondary text-[28px] font-inter font-semibold">Andelina Golira
+                                </h3>
+                                <p class="text-primary text-[16px] font-normal font-noto">@companyemail</p>
+                            </div>
+                        </div>
+                        <div class="cardBottom">
+                            <h3 class="text-primary text-[21px] font-inter font-semibold">Good Job!!!</h3>
+                            <p class="text-[#525252] text-base font-noto font-normal">"Li Europan lingues es
+                                membres del sam familie. Lor separat existentie es un myth. Por scientie."</p>
+                        </div>
+                    </div>
+                    <div
+                        class="testiCardTwo mx-2.5 bg-[#ffffff40] p-6 rounded-3xl border border-[#C7D7E5] duration-1000 hover:scale-110 hover:bg-white hover:border-white hover:-rotate-360 hover:-translate-y-10 hover:shadow-[40px_40px_108px_24px_rgba(74,56,94,0.19)]">
+                        <div class="cardTop flex pb-6">
+                            <picture>
+                                <img src="#" alt="img" class="w-16 h-16 bg-[#c4c4c4] rounded-full">
+                            </picture>
+                            <div class="nameHolder ml-4">
+                                <h3 class="text-secondary text-[28px] font-inter font-semibold">Robert Samco's
+                                </h3>
+                                <p class="text-primary text-[16px] font-normal font-noto">@companyemail</p>
+                            </div>
+                        </div>
+                        <div class="cardBottom">
+                            <h3 class="text-primary text-[21px] font-inter font-semibold">Amazing!!!</h3>
+                            <p class="text-[#525252] text-base font-noto font-normal">"Li Europan lingues es
+                                membres del sam familie. Lor separat existentie es un myth. Por scientie."</p>
+                        </div>
+                    </div>
+                    <div
+                        class="testiCardThree bg-[#ffffff40] p-6 rounded-3xl border border-[#C7D7E5] duration-1000 hover:scale-110 hover:bg-white hover:border-white hover:-rotate-y-360 hover:-translate-x-[10%] hover:-translate-y-10 hover:shadow-[40px_40px_108px_24px_rgba(74,56,94,0.19)]">
+                        <div class="cardTop flex pb-6">
+                            <picture>
+                                <img src="#" alt="img" class="w-16 h-16 bg-[#c4c4c4] rounded-full">
+                            </picture>
+                            <div class="nameHolder ml-4">
+                                <h3 class="text-secondary text-[28px] font-inter font-semibold">Angle Rosina
+                                </h3>
+                                <p class="text-primary text-[16px] font-normal font-noto">@companyemail</p>
+                            </div>
+                        </div>
+                        <div class="cardBottom">
+                            <h3 class="text-primary text-[21px] font-inter font-semibold">Excellent!!!</h3>
+                            <p class="text-[#525252] text-base font-noto font-normal">"Li Europan lingues es
+                                membres del sam familie. Lor separat existentie es un myth. Por scientie."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Part End -->
+
+    <!-- CTA Part Start -->
+
+    <section id="ctaPart" class="bg-linear-to-r from-[#E8309E] to-primary py-12.5">
+        <div class="max-w-mContainer mx-auto" data-aos="zoom-in" data-aos-duration="750">
+            <div class="cta flex justify-between">
+                <div class="ctaLeft w-133">
+                    <h5 class="text-white text-[28px] font-inter font-semibold pb-2">Subscribe to our newsletter</h5>
+                    <p class="text-base text-white font-noto font-normal">Li Europan lingues es membres del sam familie.
+                        Lor separat existentie es un myth. Por scientie, musica, sport etc.</p>
+                </div>
+                <div class="ctaRight">
+                    <h6 class="text-white text-base font-inter font-semibold pb-4">Your email address</h6>
+                    <form action="#" method="post" class="flex">
+                        <input type="email" placeholder="Enter your e-mail"
+                            class="text-base text-white font-normal font-noto bg-[#ffffff40] py-5 px-6 rounded-l-3xl w-77.75 border border-[#ffffff7e]">
+                        <button type="submit"
+                            class="cursor-pointer text-[#14182f] text-base font-inter font-semibold bg-white py-5 px-6 rounded-r-3xl w-34.25 duration-500 hover:bg-[#ffffff40] hover:text-white border border-[#ffffff7e]">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Part End -->
+
+    <!-- Footer Part Start -->
+
+    <section id="footerPart" class="bg-[#14182f] pt-20 pb-5">
+        <div class="max-w-mContainer mx-auto">
+            <div class="footer flex justify-between">
+                <div class="footerLeft w-94">
+                    <picture>
+                        <img src="assets/FooterLogo.svg" alt="Logo" class="duration-500 hover:scale-110" data-aos="zoom-in" data-aos-duration="500">
+                    </picture>
+                    <p class="text-base text-white font-noto font-normal py-6" data-aos="fade-right" data-aos-duration="500" data-aos-delay="100">Li Europan lingues es membres del sam
+                        familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li
+                        sam vocabular. Li lingues differe solmen in li.</p>
+                    <div class="footerSocials text-white" data-aos="flip-down" data-aos-duration="750" data-aos-delay="200">
+                        <div
+                            class="fb inline-block pl-2.75 pr-2.5 pt-3 pb-2.25 rounded-full bg-[#212a5e] duration-500 hover:bg-primary hover:scale-120">
+                            <i class="fa-brands fa-facebook text-2xl"></i></div>
+                        <div
+                            class="twitter inline-block pl-2.75 pr-2.5 pt-3 pb-2.25 rounded-full bg-[#212a5e] duration-500 hover:bg-primary hover:scale-120 mx-2.5">
+                            <i class="fa-brands fa-twitter text-2xl"></i></div>
+                        <div
+                            class="insta inline-block pl-2.75 pr-2.5 pt-3 pb-2.25 rounded-full bg-[#212a5e] duration-500 hover:bg-primary hover:scale-120 mr-2.5">
+                            <i class="fa-brands fa-instagram text-2xl"></i></div>
+                        <div
+                            class="yt inline-block pl-2.75 pr-2.5 pt-3.25 pb-2.5 rounded-full bg-[#212a5e] duration-500 hover:bg-primary hover:scale-120">
+                            <i class="fa-brands fa-youtube text-2xl"></i></div>
+                    </div>
+                </div>
+                <div class="footerMiddle w-34 text-white pl-5">
+                    <h6 class="text-white font-inter font-semibold text-[21px] pb-10" data-aos="zoom-in" data-aos-duration="500">Quick Links</h6>
+                    <a href="#" class="inline-block duration-250 hover:text-primary" data-aos="fade-up" data-aos-duration="750">About Us</a>
+                    <a href="#" class="inline-block py-4 duration-250 hover:text-primary" data-aos="fade-up" data-aos-duration="500">Services</a>
+                    <a href="#" class="inline-block pb-4 duration-250 hover:text-primary" data-aos="fade-up" data-aos-duration="750">Testimonial</a>
+                    <a href="#" class="inline-block duration-250 hover:text-primary" data-aos="fade-up" data-aos-duration="1000">Contact Us</a>
+                </div>
+                <div class="footerRight w-69.25 text-white">
+                    <h6 class="text-white font-inter font-semibold text-[21px] pb-10" data-aos="zoom-in" data-aos-duration="500" data-aos="fade-down">Contct Us</h6>
+                    <h3 class="text-base text-white font-noto font-normal" data-aos="fade-down" data-aos-duration="500"><i class="fa-solid fa-envelope mr-2.5"></i>hello@websit.com</h3>
+                    <h5 class="text-base text-white font-noto font-normal py-4 flex" data-aos="fade-left" data-aos-duration="250"><span><i class="fa-solid fa-location-dot mr-2.5"></i></span> <span
+                            class="inline-block">Riverside Building, Country Hall, London SE1 7PB, United Kingdom</span>
+                    </h5>
+                    <h4 class="text-base text-white font-noto font-normal" data-aos="fade-up" data-aos-duration="500"><i class="fa-solid fa-phone mr-2.5"></i>+02 5421234560</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="hrLine pt-20" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="hr py-px bg-[#8f8f8f41]"></div>
+        </div>
+
+        <div class="max-w-mContainer mx-auto">
+            <div class="copyright"><p class="pt-5 text-center text-[12px] text-white font-noto font-normal">Ⓒ 2023 All rights reserved. This is Your Company</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Part End -->
+
+    <!-- Java Script Start -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Java Script End -->
 </body>
 
 </html>

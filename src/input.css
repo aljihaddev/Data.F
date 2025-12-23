@@ -3,7 +3,8 @@
 @theme {
   --color-primary: #8630E8;
   --color-secondary: #17212E;
-  --spacing-xontainer: 1244px;
+  --color-tertiary: #EEF2F6;
+  --spacing-mContainer: 1244px;
   --font-inter: "Inter Tight", sans-serif;
   --font-noto: "Noto Sans", sans-serif;
 }
